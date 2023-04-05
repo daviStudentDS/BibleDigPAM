@@ -1,26 +1,25 @@
 # BibleDigPAM
 Repositório Elaboração Api.
 
-API Documentation - Abibliadigital
-This is an API documentation for a digital Bible platform. The API provides various endpoints to access books, chapters, and verses of the Bible. There are endpoints to retrieve a list of all Bible books, book details, chapters, verses, and search by keyword. Additionally, the API supports creating, retrieving, updating, and deleting user accounts for the platform.
+Esta é uma documentação da API para uma plataforma de Bíblia digital. A API fornece vários endpoints para acessar livros, capítulos e versículos da Bíblia. Existem endpoints para recuperar uma lista de todos os livros da Bíblia, detalhes do livro, capítulos, versículos e pesquisa por palavra-chave. Além disso, a API suporta a criação, recuperação, atualização e exclusão de contas de usuário para a plataforma.
 
-The API endpoints are accessible through HTTP GET and POST requests. The endpoint URL and required parameters are listed for each request. Some endpoints require authentication, which is achieved using an access token obtained by creating a user account. The API provides both authenticated and non-authenticated access to users.
+Os endpoints da API são acessíveis por meio de solicitações HTTP GET e POST. A URL do endpoint e os parâmetros necessários são listados para cada solicitação. Alguns endpoints exigem autenticação, que é realizada usando um token de acesso obtido ao criar uma conta de usuário. A API fornece acesso autenticado e não autenticado aos usuários.
 
-The API endpoints include:
+Os endpoints da API incluem:
 
-Get Books - returns a list of all the Bible books available in the platform, including abbreviations, authors, and number of chapters.
-Get Book - returns details of a specific Bible book, including the book name, author, number of chapters, etc.
-Get Chapter - returns all verses and details of a specific chapter, including the book, chapter number, and verse text.
-Get Verse - returns a specific verse of a chapter, including the book, chapter, verse number, and verse text.
-Get Random Verse - returns a random verse from a specific chapter.
-Get Random Verse Book - returns a random verse from a specific book.
-Search by word - returns verses containing a specific keyword.
-Get Versions - returns all Bible versions available in the platform.
-Create User - creates a new user account for the platform.
-Get User - returns details of a specific user account.
-Get User Stats - returns statistics for a specific user account, such as the last login date and the number of requests made per month.
-Update Token - updates the access token of a specific user account.
-Delete User - deletes a specific user account from the platform.
+Get Books - retorna uma lista de todos os livros da Bíblia disponíveis na plataforma, incluindo abreviações, autores e número de capítulos.
+Get Book - retorna detalhes de um livro específico da Bíblia, incluindo o nome do livro, autor, número de capítulos, etc.
+Get Chapter - retorna todos os versículos e detalhes de um capítulo específico, incluindo o livro, número do capítulo e texto do versículo.
+Get Verse - retorna um versículo específico de um capítulo, incluindo o livro, capítulo, número do versículo e texto do versículo.
+Get Random Verse - retorna um versículo aleatório de um capítulo específico.
+Get Random Verse Book - retorna um versículo aleatório de um livro específico.
+Search by word - retorna versículos contendo uma palavra-chave específica.
+Get Versions - retorna todas as versões da Bíblia disponíveis na plataforma.
+Create User - cria uma nova conta de usuário para a plataforma.
+Get User - retorna detalhes de uma conta de usuário específica.
+Get User Stats - retorna estatísticas para uma conta de usuário específica, como a data do último login e o número de solicitações feitas por mês.
+Update Token - atualiza o token de acesso de uma conta de usuário específica.
+Delete User - exclui uma conta de usuário específica da plataforma.
 
 {
 "book": {

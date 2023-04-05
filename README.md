@@ -22,10 +22,6 @@ Get User Stats - returns statistics for a specific user account, such as the las
 Update Token - updates the access token of a specific user account.
 Delete User - deletes a specific user account from the platform.
 
-
-
-reidadunk15@gmail.com
-continue o texto acima seguindo as mesmas instruções
 {
 "book": {
 "abbrev":{"pt":"gn","en":"gn"},
@@ -245,11 +241,7 @@ Copy code
 GET https://www.abibliadigital.com.br/api/chapters/nvi/gn/1
 Retorna todos os versículos do primeiro capítulo de Gênesis na versão NVI.
 
-
-
-
-reidadunk15@gmail.com
-Continue o texto a seguir: Além do endpoint anterior, a API também oferece o endpoint Get Chapter, que retorna todos os versículos de um capítulo específico de um livro da Bíblia em uma determinada versão.
+Além do endpoint anterior, a API também oferece o endpoint Get Chapter, que retorna todos os versículos de um capítulo específico de um livro da Bíblia em uma determinada versão.
 
 Get Chapter - retorna todos os versículos de um capítulo
 

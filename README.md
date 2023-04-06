@@ -10,6 +10,8 @@ Repositório Elaboração
 
 <h1></h1>
 
+<a href="https://gifyu.com/image/SdN4m"><img src="https://s10.gifyu.com/images/hasbulla-fighting.gif" alt="hasbulla-fighting.gif" border="0" /></a>
+
 <iframe src="https://www.veed.io/embed/692b7016-168b-4ec6-9af3-1d9bdae1a82d" width="744" height="504" frameborder="0" title="Snaptik.app_7137976248919133446.mp4" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Esta é uma documentação da API para uma plataforma de Bíblia digital. A API fornece vários endpoints para acessar livros, capítulos e versículos da Bíblia. Existem endpoints para recuperar uma lista de todos os livros da Bíblia, detalhes do livro, capítulos, versículos e pesquisa por palavra-chave. Além disso, a API suporta a criação, recuperação, atualização e exclusão de contas de usuário para a plataforma.

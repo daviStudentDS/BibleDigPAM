@@ -42,6 +42,133 @@ Get Random Verse* - retorna um versículo aleatório de um capítulo específico
 ]
 }
 
+
+URL: https://www.abibliadigital.com.br/api/books
+
+Parâmetros: Nenhum
+
+Autenticação: Não autenticado
+
+Resposta: Retorna um array de objetos JSON contendo informações sobre os livros da Bíblia disponíveis na plataforma:
+
+json
+Copy code
+[
+{
+"abbrev": {"pt": "gn", "en": "gn"},
+"name": "Gênesis",
+"author": "Moisés",
+"group": "Pentateuco",
+"version": "nvi",
+"chapters": 50
+},
+{
+"abbrev": {"pt": "ex", "en": "ex"},
+"name": "Êxodo",
+"author": "Moisés",
+"group": "Pentateuco",
+"version": "nvi",
+"chapters": 40
+},
+...
+]
+
+Exemplo de uso:
+
+ruby
+Copy code
+GET https://www.abibliadigital.com.br/api/books
+Retorna o seguinte array de objetos JSON:
+
+json
+Copy code
+[
+{
+"abbrev": {"pt": "gn", "en": "gn"},
+"name": "Gênesis",
+"author": "Moisés",
+"group": "Pentateuco",
+"version": "nvi",
+"chapters": 50
+},
+{
+"abbrev": {"pt": "ex", "en": "ex"},
+"name": "Êxodo",
+"author": "Moisés",
+"group": "Pentateuco",
+"version": "nvi",
+"chapters": 40
+},
+...
+]
+
+Método: GET
+
+URL: https://www.abibliadigital.com.br/api/versions
+
+Parâmetros: Nenhum
+
+Autenticação: Não autenticado
+
+Resposta: Retorna um array de strings contendo os nomes de todas as versões da Bíblia disponíveis na plataforma:
+
+json
+Copy code
+[
+"nvi",
+"arc",
+...
+]
+
+Exemplo de uso:
+
+ruby
+Copy code
+GET https://www.abibliadigital.com.br/api/versions
+Retorna o seguinte array de strings:
+
+json
+Copy code
+[
+"nvi",
+"arc",
+...
+]
+
+Método: GET
+
+URL: https://www.abibliadigital.com.br/api/search/:versão/:palavra
+
+Parâmetros:
+
+versão: string (obrigatório) - a versão da Bíblia desejada, por exemplo "nvi", "arc", etc.
+palavra: string (obrigatório) - a palavra-chave que se deseja buscar.
+
+Autenticação: Não autenticado
+
+Resposta: Retorna um array de objetos JSON contendo informações sobre os versículos que contêm a palavra-chave buscada:
+
+json
+Copy code
+[
+{
+"book": {
+"abbrev": {"pt": "gn", "en": "gn"},
+"name": "Gênesis",
+"author": "Moisés",
+"group": "Pentateuco",
+"version": "nvi"
+},
+"chapter": 1,
+"number": 1,
+"text": "No princípio Deus criou os céus e a terra."
+},
+{
+"book": {
+"abbrev": {"pt": "gn", "en": "gn"},
+"name": "Gênesis",
+"author":
+
 Get Verse - retorna um versículo específico de um capítulo
 
 Este endpoint retorna um versículo específico de um capítulo da Bíblia em uma determinada versão e livro.

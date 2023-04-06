@@ -1,11 +1,11 @@
 # BibleDigPAM
 Repositório Elaboração 
 
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/bXLx4sF/jesus-cristo.jpg" alt="jesus-cristo" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/bXLx4sF/jesus-cristo.jpg" alt="jesus-cristo" border="0" display="flex"></a>
 
 <h1>VS</h1>
 
-<a href="https://gifyu.com/image/SdNQD"><img src="https://s2.gifyu.com/images/diabo.gif" alt="diabo.gif" border="0" /></a>
+<a href="https://gifyu.com/image/SdNQD"><img src="https://s2.gifyu.com/images/diabo.gif" alt="diabo.gif" border="0" display="flex" /></a>
 
 Esta é uma documentação da API para uma plataforma de Bíblia digital. A API fornece vários endpoints para acessar livros, capítulos e versículos da Bíblia. Existem endpoints para recuperar uma lista de todos os livros da Bíblia, detalhes do livro, capítulos, versículos e pesquisa por palavra-chave. Além disso, a API suporta a criação, recuperação, atualização e exclusão de contas de usuário para a plataforma.
 

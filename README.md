@@ -1,4 +1,4 @@
-# BibleDigPAM
+# BibleDigital_Davi_E_Maurício
 Repositório Elaboração 
 
 URL documetação da API: https://github.com/marciovsena/abibliadigital/blob/master/DOCUMENTATION.md

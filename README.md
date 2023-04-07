@@ -14,7 +14,7 @@ Os endpoints da API são acessíveis por meio de solicitações HTTP GET e POST.
 Os endpoints da API incluem:
 
 - *Get Books* - retorna uma lista de todos os livros da Bíblia disponíveis na plataforma, incluindo abreviações, autores e número de capítulos.
-- *Get Book * - retorna detalhes de um livro específico da Bíblia, incluindo o nome do livro, autor, número de capítulos, etc.
+- *Get Book* - retorna detalhes de um livro específico da Bíblia, incluindo o nome do livro, autor, número de capítulos, etc.
 - *Get Chapter* - retorna todos os versículos e detalhes de um capítulo específico, incluindo o livro, número do capítulo e texto do versículo.
 - *Get Verse* - retorna um versículo específico de um capítulo, incluindo o livro, capítulo, número do versículo e texto do versículo.
 - *Get Random Verse* - retorna um versículo aleatório de um capítulo específico.

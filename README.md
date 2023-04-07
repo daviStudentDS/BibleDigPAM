@@ -25,7 +25,7 @@ Os endpoints da API incluem:
 - *Get User* - retorna detalhes de uma conta de usuário específica.
 - *Get User Stats* - retorna estatísticas para uma conta de usuário específica, como a data do último login e o número de solicitações feitas por mês.
 - *Update Token* - atualiza o token de acesso de uma conta de usuário específica.
-- *Delete User * - exclui uma conta de usuário específica da plataforma.
+- *Delete User* - exclui uma conta de usuário específica da plataforma.
 
 {
 "book": {

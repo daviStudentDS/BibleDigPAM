@@ -279,6 +279,7 @@ Retorna um objeto JSON contendo informações sobre o livro, capítulo e versíc
 json
 Copy code
 {
+
   "book": {
     "abbrev":{"pt":"gn","en":"gn"},
     "name":"Gênesis",
@@ -451,3 +452,40 @@ Para atualizar o token do usuário, envie uma solicitação PUT para https://www
 Para excluir um usuário, envie uma solicitação DELETE para https://www.abibliadigital.com.br/api/users com um token de autenticação e um corpo JSON incluindo o email e senha do usuário. A resposta confirmará que o usuário foi excluído com sucesso.
 
 Para reenviar a senha do usuário, envie uma solicitação POST para https://www.abibliadigital.com.br/api/users/password/:email com o email do usuário como um parâmetro. A resposta confirmará que uma nova senha foi enviada para o email do usuário.
+
+
+Requisições GET - Todas as requisições do período
+
+Endpoint: GET https://www.abibliadigital.com.br/api/requests/:range (mês, semana, dia)
+Autenticado: Sim
+Resposta:
+
+[
+{
+"url": "/api/verses/nvi/1co/9/8",
+"date": "2020-01-17T21:03:50.996Z"
+},
+{
+"url": "/api/books",
+"date": "2020-01-17T20:13:19.078Z"
+}
+]
+
+Obter o número de requisições - Número de requisições para o período
+
+Endpoint: GET https://www.abibliadigital.com.br/api/requests/amount/:range (mês, semana, dia)
+Autenticado: Sim
+Resposta:
+
+{
+"total": 3,
+"requests": [
+{
+"_id": "/api/books/",
+"count": 2
+},
+{
+"_id": "/api/verses/nvi/sl/23/",
+"count": 1
+}
+]

@@ -434,3 +434,20 @@ ruby
 Copy code
 GET https://www.abibliadigital.com.br/api/chapters/nvi/gn/1
 Retorna todos os versículos do primeiro capítulo de Gênesis na versão NVI.
+
+
+API Usuários para Abibliadigital:
+
+Esta API permite que os usuários criem, recuperem, atualizem e excluam suas contas. O projeto é de código aberto e a autenticação é usada apenas para rastrear o uso e enviar emails de atualização.
+
+Para criar um usuário, envie uma solicitação POST para https://www.abibliadigital.com.br/api/users com um corpo JSON incluindo um nome, email, senha (mínimo de 6 dígitos) e se o usuário deseja receber emails de atualização. A resposta incluirá o nome, email e um token que não expira.
+
+Para recuperar informações do usuário, envie uma solicitação GET para https://www.abibliadigital.com.br/api/users/:email com um token de autenticação. A resposta incluirá o nome, email, token, se eles desejam receber emails de atualização e a data do último login.
+
+Para recuperar estatísticas do usuário, envie uma solicitação GET para https://www.abibliadigital.com.br/api/users/stats com um token de autenticação. A resposta incluirá a data do último login do usuário e um array de solicitações por mês com um intervalo e total.
+
+Para atualizar o token do usuário, envie uma solicitação PUT para https://www.abibliadigital.com.br/api/users/token com um corpo JSON incluindo o email e senha do usuário. A resposta incluirá o nome, email e um novo token.
+
+Para excluir um usuário, envie uma solicitação DELETE para https://www.abibliadigital.com.br/api/users com um token de autenticação e um corpo JSON incluindo o email e senha do usuário. A resposta confirmará que o usuário foi excluído com sucesso.
+
+Para reenviar a senha do usuário, envie uma solicitação POST para https://www.abibliadigital.com.br/api/users/password/:email com o email do usuário como um parâmetro. A resposta confirmará que uma nova senha foi enviada para o email do usuário.

@@ -13,19 +13,19 @@ Os endpoints da API são acessíveis por meio de solicitações HTTP GET e POST.
 
 Os endpoints da API incluem:
 
-*Get Books* - retorna uma lista de todos os livros da Bíblia disponíveis na plataforma, incluindo abreviações, autores e número de capítulos.
-*Get Book *- retorna detalhes de um livro específico da Bíblia, incluindo o nome do livro, autor, número de capítulos, etc.
-*Get Chapter* - retorna todos os versículos e detalhes de um capítulo específico, incluindo o livro, número do capítulo e texto do versículo.
-*Get Verse* - retorna um versículo específico de um capítulo, incluindo o livro, capítulo, número do versículo e texto do versículo.
-Get Random Verse* - retorna um versículo aleatório de um capítulo específico.
-*Get Random Verse Book* - retorna um versículo aleatório de um livro específico.
-*Search by word* - retorna versículos contendo uma palavra-chave específica.
-*Get Version*s - retorna todas as versões da Bíblia disponíveis na plataforma.
-*Create User* - cria uma nova conta de usuário para a plataforma.
-*Get User* - retorna detalhes de uma conta de usuário específica.
-*Get User Stats* - retorna estatísticas para uma conta de usuário específica, como a data do último login e o número de solicitações feitas por mês.
-*Update Token* - atualiza o token de acesso de uma conta de usuário específica.
-*Delete User *- exclui uma conta de usuário específica da plataforma.
+- *Get Books* - retorna uma lista de todos os livros da Bíblia disponíveis na plataforma, incluindo abreviações, autores e número de capítulos.
+- *Get Book *- retorna detalhes de um livro específico da Bíblia, incluindo o nome do livro, autor, número de capítulos, etc.
+- *Get Chapter* - retorna todos os versículos e detalhes de um capítulo específico, incluindo o livro, número do capítulo e texto do versículo.
+- *Get Verse* - retorna um versículo específico de um capítulo, incluindo o livro, capítulo, número do versículo e texto do versículo.
+- *Get Random Verse* - retorna um versículo aleatório de um capítulo específico.
+- *Get Random Verse Book* - retorna um versículo aleatório de um livro específico.
+- *Search by word* - retorna versículos contendo uma palavra-chave específica.
+- *Get Version*s - retorna todas as versões da Bíblia disponíveis na plataforma.
+- *Create User* - cria uma nova conta de usuário para a plataforma.
+- *Get User* - retorna detalhes de uma conta de usuário específica.
+- *Get User Stats* - retorna estatísticas para uma conta de usuário específica, como a data do último login e o número de solicitações feitas por mês.
+- *Update Token* - atualiza o token de acesso de uma conta de usuário específica.
+- *Delete User *- exclui uma conta de usuário específica da plataforma.
 
 {
 "book": {
@@ -437,7 +437,7 @@ GET https://www.abibliadigital.com.br/api/chapters/nvi/gn/1
 Retorna todos os versículos do primeiro capítulo de Gênesis na versão NVI.
 
 
-API Usuários para Abibliadigital:
+- API Usuários para Abibliadigital:
 
 Esta API permite que os usuários criem, recuperem, atualizem e excluam suas contas. O projeto é de código aberto e a autenticação é usada apenas para rastrear o uso e enviar emails de atualização.
 
@@ -454,7 +454,7 @@ Para excluir um usuário, envie uma solicitação DELETE para https://www.abibli
 Para reenviar a senha do usuário, envie uma solicitação POST para https://www.abibliadigital.com.br/api/users/password/:email com o email do usuário como um parâmetro. A resposta confirmará que uma nova senha foi enviada para o email do usuário.
 
 
-Requisições GET - Todas as requisições do período
+- Requisições GET - Todas as requisições do período
 
 Endpoint: GET https://www.abibliadigital.com.br/api/requests/:range (mês, semana, dia)
 Autenticado: Sim

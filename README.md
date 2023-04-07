@@ -1,6 +1,8 @@
 # BibleDigPAM
 Repositório Elaboração 
 
+URL documetação da API: https://github.com/marciovsena/abibliadigital/blob/master/DOCUMENTATION.md
+
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/bXLx4sF/jesus-cristo.jpg" alt="jesus-cristo" border="0" display="flex"></a>
 
 

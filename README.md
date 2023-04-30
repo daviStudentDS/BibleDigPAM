@@ -47,9 +47,7 @@ A API BallDontLie não requer autenticação para ser usada.
 
 
 
-
-
-#Endpoints que serão utilizados ou considerados na aplicação e seus recursos
+# Endpoints que serão utilizados ou considerados na aplicação e seus recursos
 
 
 Endpoints de jogadores

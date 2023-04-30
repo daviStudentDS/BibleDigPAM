@@ -134,3 +134,19 @@ Este endpoint retorna uma lista de jogadas de um jogo específico com o ID espec
 
 Exemplo:
 GET https://www.balldontlie.io/api/v1/games/40107/play_by_play
+
+
+
+
+
+# Planificação - Telas e funcionalidades da aplicação
+
+O aplicativo é uma plataforma de pesquisa e consulta de dados da NBA, focando em jogadores, times e jogos. Possui as seguintes telas:
+
+Tela de carregamento (Splash)
+Menu, com botões direcionando para as telas de busca e consulta
+Tela de pesquisa, busca e consulta sobre jogadores
+Tela de pesquisa, busca e consulta sobre times
+Tela de pesquisa, busca e consulta sobre jogos e informações
+Tela de histórico, com dados sobre as pesquisas recentes em ambas as telas.
+Caso necessário - haverá somente a adição de telas referente ao resultados das respectivas anteriores para a exibição de seus dados.

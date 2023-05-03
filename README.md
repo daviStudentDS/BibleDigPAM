@@ -64,78 +64,19 @@ Este endpoint retorna informações detalhadas sobre um jogador específico com 
 Exemplo:
 GET https://www.balldontlie.io/api/v1/players/237
 
-3. /players/{id}/stats
-Este endpoint retorna uma lista de estatísticas de um jogador específico com o ID especificado.
-
-Exemplo:
-GET https://www.balldontlie.io/api/v1/players/237/stats
-
-4. /players/{id}/season_averages
-Este endpoint retorna as médias de estatísticas de um jogador específico com o ID especificado para todas as temporadas.
-
-Exemplo:
-GET https://www.balldontlie.io/api/v1/players/237/season_averages
-
-5. /players/{id}/games
-Este endpoint retorna uma lista de jogos que um jogador específico com o ID especificado jogou.
-
-Exemplo:
-GET https://www.balldontlie.io/api/v1/players/237/games
-
 Endpoints de times
-6. /teams
+3. /teams
 Este endpoint retorna uma lista de times. Os resultados podem ser filtrados por nome e cidade.
 
 Exemplo: 
 GET https://www.balldontlie.io/api/v1/teams?per_page=10
 Este exemplo retorna uma lista de até 10 times.
 
-7. /teams/{id}
+4. /teams/{id}
 Este endpoint retorna informações detalhadas sobre um time específico com o ID especificado.
 
 Exemplo:
 GET https://www.balldontlie.io/api/v1/teams/1
-
-8. /teams/{id}/stats
-Este endpoint retorna uma lista de estatísticas de uma equipe específica com o ID especificado.
-
-Exemplo:
-GET https://www.balldontlie.io/api/v1/teams/1/stats
-
-9. /teams/{id}/games
-Este endpoint retorna uma lista de jogos que uma equipe específica com o ID especificado jogou.
-
-Exemplo:
-GET https://www.balldontlie.io/api/v1/teams/1/games
-
-Endpoints de jogos
-10. /games
-Este endpoint retorna uma lista de jogos. Os resultados podem ser filtrados por data, equipe da casa, equipe visitante e status do jogo.
-
-Exemplo:
-GET https://www.balldontlie.io/api/v1/games?seasons[]=2020&team_ids[]=1&status[]=Final&per_page=5
-Este exemplo retorna uma lista de até 5 jogos jogados na temporada 2020, onde o time com ID 1 participou e o status do jogo é "Final".
-
-11. /games/{id}
-Este endpoint retorna informações detalhadas sobre um jogo específico com o ID especificado.
-
-Exemplo:
-GET https://www.balldontlie.io/api/v1/games/40107
-
-12. /schedule
-Este endpoint retorna uma lista de jogos agendados. Os resultados podem ser filtrados por data, equipe da casa e equipe visitante.
-
-Exemplo:
-GET https://www.balldontlie.io/api/v1/schedule?start_date=2022-05-01&end_date=2022-05-15&team_ids[]=1&team_ids[]=2
-Este exemplo retorna uma lista de jogos agendados entre 1 e 15 de maio de 2022, onde os times com ID 1 e 2 participam.
-
-13. /games/{id}/play_by_play
-Este endpoint retorna uma lista de jogadas de um jogo específico com o ID especificado.
-
-Exemplo:
-GET https://www.balldontlie.io/api/v1/games/40107/play_by_play
-
-
 
 
 

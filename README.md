@@ -88,6 +88,4 @@ O aplicativo é uma plataforma de pesquisa e consulta de dados da NBA, focando e
 2. Menu, com botões direcionando para as telas de busca e consulta
 3. Tela de pesquisa, busca e consulta sobre jogadores
 4. Tela de pesquisa, busca e consulta sobre times
-5. Tela de pesquisa, busca e consulta sobre jogos e informações
-6. Tela de histórico, com dados sobre as pesquisas recentes em ambas as telas.
-#### Caso necessário - haverá somente a adição de telas referente ao resultados das respectivas anteriores para a exibição de seus dados.
+5. Tela de histórico, com dados sobre as pesquisas recentes em ambas as telas.

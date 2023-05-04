@@ -78,8 +78,6 @@ Este endpoint retorna informações detalhadas sobre um time específico com o I
 Exemplo:
 GET https://www.balldontlie.io/api/v1/teams/1
 
-
-
 # Planificação - Telas e funcionalidades da aplicação
 
 O aplicativo é uma plataforma de pesquisa e consulta de dados da NBA, focando em jogadores, times e jogos. Possui as seguintes telas:
@@ -89,3 +87,7 @@ O aplicativo é uma plataforma de pesquisa e consulta de dados da NBA, focando e
 3. Tela de pesquisa, busca e consulta sobre jogadores
 4. Tela de pesquisa, busca e consulta sobre times
 5. Tela de histórico, com dados sobre as pesquisas recentes em ambas as telas.
+
+# Navegação
+
+

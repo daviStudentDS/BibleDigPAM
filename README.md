@@ -90,4 +90,7 @@ O aplicativo é uma plataforma de pesquisa e consulta de dados da NBA, focando e
 
 # Navegação
 
+<img src="![navegação](https://user-images.githubusercontent.com/101807467/236198117-15264d4b-a554-43ef-9e4b-f99a231c05a5.png)">
+
+
 

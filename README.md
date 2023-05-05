@@ -98,15 +98,13 @@ O aplicativo é uma plataforma de pesquisa e consulta de dados da NBA, focando e
 <img src="https://user-images.githubusercontent.com/101807467/236357133-b9e86332-8313-4e75-95e4-c3054f49155a.png">
 
 ### Diagrama do Banco:
-
-<img src="">
+<img src="https://user-images.githubusercontent.com/101807467/236358918-1bfe73ae-f074-40b8-9811-77605ff34983.png">
 
 
 # Protótipo Design
 
 ## Link para o design do Figma: https://www.figma.com/file/9GZipho6COcutL8qIipKAP/PROT%C3%93TIPO---BALL-DONT-LIE?node-id=0%3A1&t=4mdtKz97yTnJy0zq-1
 
-#
 
 
 

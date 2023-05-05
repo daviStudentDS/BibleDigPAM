@@ -104,7 +104,7 @@ acessada através da tela de Histórico o mandando para a tela Pesquisas favorit
 # Diagrama de Classes Diagrama de Banco
 
 ##### Diagrama de Classes:
-<img src="https://user-images.githubusercontent.com/101807467/236357133-b9e86332-8313-4e75-95e4-c3054f49155a.png">
+<img src="https://user-images.githubusercontent.com/101807467/236364928-1250ffa6-842f-4a15-a38c-8bea5e49fd25.png">
 
 ##### Diagrama do Banco:
 <img src="https://user-images.githubusercontent.com/101807467/236358918-1bfe73ae-f074-40b8-9811-77605ff34983.png">

@@ -85,8 +85,16 @@ O aplicativo é uma plataforma de pesquisa e consulta de dados da NBA, focando e
 1. Tela de carregamento (Splash)
 2. Menu, com botões direcionando para as telas de busca e consulta
 3. Tela de pesquisa, busca e consulta sobre jogadores
+Respectivo Resultado//
 4. Tela de pesquisa, busca e consulta sobre times
+Respectivo Resultado//
 5. Tela de histórico, com dados sobre as pesquisas recentes em ambas as telas.
+6. Tela de favoritos que guardará as pesquisas e resultados pela opção favoritar
+ 
+######## A aplicação tem o intuito de ser um aplicativo de pesquisa sobre jogadores e times da nba, onde a partir
+da tela de menu, se partirá para as seguintes de pesquisa relativas a Times e Jogadores, e a tela do Histórico. Cada tela de resultado
+para os dados pesquisados e enviados, terá uma opção de favoritar que salvará o dados da pesquisa em questão, podendo ser 
+acessada através da tela de Histórico o mandando para a tela Pesquisas favoritas, mostrando os mesmos e respectivos dados guardados.
 
 # Navegação
 

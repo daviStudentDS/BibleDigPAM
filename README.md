@@ -1,4 +1,5 @@
 # Documentação da API BallDontLie
+<img src="https://user-images.githubusercontent.com/101807467/236360121-0a6887a3-db35-4f99-8964-a7965d161900.png">
 BallDontLie - API que fornece estatísticas de basquete sobre a NBA. Esta API é gratuita e aberta para uso público.
 
 A API BallDontLie é uma API pública gratuita e aberta para uso público que fornece estatísticas de basquete da NBA. Com esta API, é possível obter informações sobre jogos, equipes, jogadores e estatísticas de jogadores em jogos específicos.

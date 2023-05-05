@@ -94,7 +94,13 @@ O aplicativo é uma plataforma de pesquisa e consulta de dados da NBA, focando e
 
 # Diagrama de Classes Diagrama de Banco
 
+### Diagrama de Classes:
+<img src="https://user-images.githubusercontent.com/101807467/236357133-b9e86332-8313-4e75-95e4-c3054f49155a.png">
+
+### Diagrama do Banco:
+
 <img src="">
+
 
 # Protótipo Design
 

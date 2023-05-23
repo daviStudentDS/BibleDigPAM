@@ -1,4 +1,4 @@
-# Documentação da API BallDontLie
+# Documentação da API BallDontLie - Luís Davi e Maurício Leandro - 3°DS
 <img src="https://user-images.githubusercontent.com/101807467/236360121-0a6887a3-db35-4f99-8964-a7965d161900.png">
 BallDontLie - API que fornece estatísticas de basquete sobre a NBA. Esta API é gratuita e aberta para uso público.
 

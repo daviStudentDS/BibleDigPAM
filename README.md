@@ -12,7 +12,7 @@
 
 # Diagrama de Classes - API que será criada:
 
-<img src="https://github.com/daviStudentDS/NbaProject_Davi_Mauricio/assets/101807467/fd037be4-d965-48b3-b4b5-65051ed0378a.png"/>
+<img src="https://github.com/daviStudentDS/NbaProject_Davi_Mauricio/assets/101807467/df5360c1-03c2-4958-86df-53a0cc90c7f8.png"/>
 
 
 # Documentação da API BallDontLie - Luís Davi e Maurício Leandro - 3°DS

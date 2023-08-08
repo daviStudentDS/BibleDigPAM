@@ -1,3 +1,14 @@
+#Atualização de Trabalho - Luís Davi e Maurício Leandro - 3°DS 
+#Criação de API:
+- Pesquisa de jogadores e times, assim como a api externa do aplicativo focadas ambas em basquete.
+- Link da API externa: https://app.balldontlie.io;
+- Funções e Activitys novas possíveis: Possivelmente mais três activitys - Duas para as pesquisas dos respectivos dados e uma para uma possível implementação de imagens que ao se interagir com a tela, irá gerar a imgagem de um jogador aleatório da Etec Professor Basilides de Godoy;
+- Descrição da nossa API: Assim como a api externa, ela armazenará dados sobre times e jogadores de times diferentes e será possível efetuar a pesquissa de seus dados no app;
+- Alterações: Acredito que além das activitys e provavelmente a mecânica da imagem aleatória, não seja alterado muitas coisas no aplicativo.
+
+#Modelo de Entidade e Relacionamento(MER):
+
+
 # Documentação da API BallDontLie - Luís Davi e Maurício Leandro - 3°DS
 
 BallDontLie - API que fornece estatísticas de basquete sobre a NBA. Esta API é gratuita e aberta para uso público.

@@ -8,7 +8,7 @@
 
 # Modelo de Entidade e Relacionamento(MER):
 
-<img src"https://github.com/daviStudentDS/NbaProject_Davi_Mauricio/assets/101807467/fd037be4-d965-48b3-b4b5-65051ed0378a"/>
+<img src="https://github.com/daviStudentDS/NbaProject_Davi_Mauricio/assets/101807467/fd037be4-d965-48b3-b4b5-65051ed0378a.png"/>
 
 
 # Documentação da API BallDontLie - Luís Davi e Maurício Leandro - 3°DS

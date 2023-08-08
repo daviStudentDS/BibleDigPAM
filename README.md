@@ -6,7 +6,11 @@
 - Descrição da nossa API: Assim como a api externa, ela armazenará dados sobre times e jogadores de times diferentes e será possível efetuar a pesquissa de seus dados no app;
 - Alterações: Acredito que além das activitys e provavelmente a mecânica da imagem aleatória, não seja alterado muitas coisas no aplicativo.
 
-# Modelo de Entidade e Relacionamento(MER):
+# Modelo de Entidade e Relacionamento(MER) API que será criada:
+
+<img src="https://github.com/daviStudentDS/NbaProject_Davi_Mauricio/assets/101807467/fd037be4-d965-48b3-b4b5-65051ed0378a.png"/>
+
+# Diagrama de Classes - API que será criada:
 
 <img src="https://github.com/daviStudentDS/NbaProject_Davi_Mauricio/assets/101807467/fd037be4-d965-48b3-b4b5-65051ed0378a.png"/>
 
